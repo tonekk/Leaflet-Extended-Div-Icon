@@ -1,4 +1,24 @@
 Leaflet-Extended-Div-Icon
 =========================
 
-L.ExtendedDivIcon - Add ids to your div icons
+L.ExtendedDivIcon - Adds the ability to set the ```id``` of the element created by ```L.DivIcon```
+
+
+I always found it quite uncomfortable that you can only set classes for ```L.DivIcon```, so I built this thing.
+Maybe somebody else needs this.
+
+
+## Usage example
+
+```javascript
+var marker = L.marker(L.latLng(lat, lng), {
+                      icon: L.extendedDivIcon({
+                      
+                        // Set classes here, as usual
+                        className: 'class-a class-b class-c',
+                        
+                        // Set id here (new!)
+                        id: 'my-awesome-id'
+                      })
+                    });
+```
