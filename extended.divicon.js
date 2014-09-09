@@ -6,6 +6,12 @@ L.ExtendedDivIcon = L.DivIcon.extend({
       div.id = this.options.id;
     }
 
+    if(this.options.style) {
+      for(var key in this.options.style) {
+        div.style[key] = this.options.style[key];
+      }
+    }
+
     return div;
   }
 });
