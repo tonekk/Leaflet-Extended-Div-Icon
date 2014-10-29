@@ -1,6 +1,8 @@
 Leaflet-Extended-Div-Icon
 =========================
 
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://tonekk.mit-license.org)
+
 L.ExtendedDivIcon - Adds the ability to set the ```id``` and ```style``` of the element created by ```L.DivIcon```
 
 
