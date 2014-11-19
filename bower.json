@@ -1,0 +1,27 @@
+{
+  "name": "Leaflet-Extended-Div-Icon",
+  "version": "1.0.0",
+  "homepage": "https://github.com/tonekk/Leaflet-Extended-Div-Icon",
+  "description": "Add styling and ids to your leaflet div icons",
+  "main": "extended.divicon.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "leaflet"
+  ],
+  "authors": [
+    "tonekk"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "~0.7.3"
+  }
+}
